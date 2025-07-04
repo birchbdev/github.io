@@ -6,47 +6,53 @@
   <title>Bryan Birch | Software Engineer</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-50 text-gray-800">
-  <header class="bg-white shadow-md py-6 px-4 md:px-10">
-    <h1 class="text-3xl font-bold text-gray-900">Bryan Birch</h1>
-    <p class="text-lg text-gray-600">Software Engineer | Embedded Systems & Full-Stack Dev</p>
+<body class="bg-gray-50 text-gray-800 font-sans">
+  <header class="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-12 px-6 text-center shadow-md">
+    <h1 class="text-4xl md:text-5xl font-bold">Bryan Birch</h1>
+    <p class="text-xl mt-4">Software Engineer · Embedded Systems & Full-Stack Dev</p>
   </header>
-  <main class="p-6 md:p-10">
-    <section class="mb-10">
-      <h2 class="text-2xl font-semibold mb-4">About Me</h2>
-      <p class="leading-relaxed">
-        I'm Bryan, a software engineer with a background in ICU and interventional radiology nursing. My journey from bedside care to building clinical software and embedded systems was driven by a desire to make healthcare tools smarter, more efficient, and more human-centered.
-      </p>
-      <p class="leading-relaxed mt-4">
-        After earning my computer science degree, I began designing systems that bridge the physical and digital — from microcontroller-based tools like RFID-enabled scuba gear trackers and ESP32 weather stations, to full-stack apps that streamline hospital procedure scheduling or provide real-time CPR feedback.
-      </p>
-      <p class="leading-relaxed mt-4">
-        Whether I’m designing a cross-platform app with Vue and Capacitor, integrating embedded hardware, or applying AI to support staff workflows, my focus is always on clarity, usability, and impact.
-      </p>
-    </section>
-    <section class="mb-10">
-      <h2 class="text-2xl font-semibold mb-4">Featured Projects</h2>
-      <ul class="space-y-6">
-        <li>
-          <h3 class="text-xl font-bold">🫀 CPR Assist</h3>
-          <p class="ml-4">A real-time CPR feedback app that provides visual and audio cues for compression rate, depth, and timing. Designed for both emergency response and training use.</p>
-        </li>
-        <li>
-          <h3 class="text-xl font-bold">💊 Smart Medication Dispenser</h3>
-          <p class="ml-4">An automated medication management system that syncs with EHRs and MARs, uses computer vision to verify pills, and provides timed dispensing with alerts.</p>
-        </li>
-        <li>
-          <h3 class="text-xl font-bold">🏥 Hospital Procedure Scheduler</h3>
-          <p class="ml-4">A PyQt-based surgical scheduling system that dynamically adjusts in real time based on surgeon preferences, room availability, delays, and AI predictions.</p>
-        </li>
-      </ul>
+
+  <main class="max-w-5xl mx-auto px-6 py-10 space-y-16">
+    <section>
+      <h2 class="text-3xl font-semibold mb-6 border-b pb-2 border-gray-300">About Me</h2>
+      <div class="space-y-4 text-lg leading-relaxed">
+        <p>
+          I'm Bryan, a software engineer with a background in ICU and interventional radiology nursing. My journey from bedside care to building clinical software and embedded systems was driven by a desire to make healthcare tools smarter, more efficient, and more human-centered.
+        </p>
+        <p>
+          After earning my computer science degree, I began designing systems that bridge the physical and digital — from microcontroller-based tools like RFID-enabled scuba gear trackers and ESP32 weather stations, to full-stack apps that streamline hospital procedure scheduling or provide real-time CPR feedback.
+        </p>
+        <p>
+          Whether I’m designing a cross-platform app with Vue and Capacitor, integrating embedded hardware, or applying AI to support staff workflows, my focus is always on clarity, usability, and impact.
+        </p>
+      </div>
     </section>
 
     <section>
-      <h2 class="text-2xl font-semibold mb-4">Contact</h2>
-      <p>Email: <a href="mailto:birchb.dev@gmail.com" class="text-blue-600 hover:underline">birchb.dev@gmail.com</a></p>
-      <p>GitHub: <a href="https://github.com/birchbdev" class="text-blue-600 hover:underline">@birchbdev</a></p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/bryan-birch-a998b11ab/" class="text-blue-600 hover:underline">Bryan Birch</a></p>
+      <h2 class="text-3xl font-semibold mb-6 border-b pb-2 border-gray-300">Featured Projects</h2>
+      <div class="grid gap-6 md:grid-cols-2">
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+          <h3 class="text-2xl font-bold mb-2">🫀 CPR Assist</h3>
+          <p class="text-gray-700">A real-time CPR feedback app that provides visual and audio cues for compression rate, depth, and timing. Designed for both emergency response and training use.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+          <h3 class="text-2xl font-bold mb-2">💊 Smart Medication Dispenser</h3>
+          <p class="text-gray-700">An automated medication management system that syncs with EHRs and MARs, uses computer vision to verify pills, and provides timed dispensing with alerts.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+          <h3 class="text-2xl font-bold mb-2">🏥 Hospital Procedure Scheduler</h3>
+          <p class="text-gray-700">A PyQt-based surgical scheduling system that dynamically adjusts in real time based on surgeon preferences, room availability, delays, and AI predictions.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="text-3xl font-semibold mb-6 border-b pb-2 border-gray-300">Contact</h2>
+      <ul class="text-lg space-y-2">
+        <li>Email: <a href="mailto:birchb.dev@gmail.com" class="text-blue-600 hover:underline">birchb.dev@gmail.com</a></li>
+        <li>GitHub: <a href="https://github.com/birchbdev" class="text-blue-600 hover:underline">@birchbdev</a></li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/bryan-birch-a998b11ab/" class="text-blue-600 hover:underline">Bryan Birch</a></li>
+      </ul>
     </section>
   </main>
 </body>
